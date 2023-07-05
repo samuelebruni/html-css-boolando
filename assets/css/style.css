@@ -244,8 +244,12 @@ main{
     background-image: url(../img/6b.webp);
 }
 
-.heart:hover{
-    color: red;
+i{
+    color: black;
+}
+
+i:hover{
+    color: var(--zl-off);
 }
 
 .container_off{
