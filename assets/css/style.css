@@ -23,7 +23,7 @@ body{
 }
 
 .container{
-    width: 80%;
+    width: 78%;
     margin: auto;
     max-width: 1170px;
 }
@@ -50,20 +50,20 @@ li > a{
     margin-left: 1rem;
 }
 
+img{
+    width: 100%;
+}
+
+.space{
+    justify-content: space-around;
+}
+
 
 /*#endregion*/
 
 /*#region Debug*/
 
-.debug .col-small-menu{
-    height: 50px;
-    background-color: orange;
-}
 
-.debug .col-logo-menu{
-    height: 50px;
-    background-color: orange;
-}
 
 /*#endregion*/
 
@@ -84,4 +84,72 @@ span a{
     margin: 0 0.2rem;
 }
 
+/*#endregion*/
+
+/*#region Main*/
+
+main{
+    background-color: var(--zl-light);
+}
+
+.card1{
+    width: 32%;
+    position: relative;
+    background-image: url(../img/1.webp);
+    background-size: cover;
+    height: 480px;
+    margin-top: 2rem;
+}
+
+.card2{
+    width: 32%;
+    position: relative;
+    background-image: url(../img/2.webp);
+    background-size: cover;
+    height: 480px;
+    margin-top: 2rem;
+}
+
+.card3{
+    width: 32%;
+    position: relative;
+    background-image: url(../img/3.webp);
+    background-size: cover;
+    height: 480px;
+    margin-top: 2rem;
+}
+
+.heart{
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    right: 6%;
+    top: 5%;
+}
+
+.container-heart{
+    height: 45px;
+    width: 45px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    right: 0%;
+    top: 2%;
+}
+
+
+.first:hover{
+    background-image: url(../img/1b.webp);
+}
+
+.second:hover{
+    background-image: url(../img/2b.webp);
+}
+
+.third:hover{
+    background-image: url(../img/3b.webp);
+}
+
+.heart:hover{
+    color: red;
+}
 /*#endregion*/
