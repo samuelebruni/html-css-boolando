@@ -128,6 +128,9 @@ img{
     width: 100%;
     background-color: var(--zl-primary);
     box-shadow: 0 0 3px black;
+    position: fixed;
+    top: 0;
+    z-index: 100000;
 }
 
 .text-menu{
@@ -152,7 +155,7 @@ main{
     background-image: url(../img/1.webp);
     background-size: cover;
     height: 480px;
-    margin-top: 2rem;
+    margin-top: 6rem;
 }
 
 .container_card{
@@ -164,7 +167,7 @@ main{
     background-image: url(../img/2.webp);
     background-size: cover;
     height: 480px;
-    margin-top: 2rem;
+    margin-top: 6rem;
 }
 
 .card3{
@@ -172,7 +175,7 @@ main{
     background-image: url(../img/3.webp);
     background-size: cover;
     height: 480px;
-    margin-top: 2rem;
+    margin-top: 6rem;
 }
 
 .card4{
