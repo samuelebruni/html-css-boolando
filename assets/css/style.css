@@ -8,6 +8,9 @@
 
 body{
     min-width: 1170px;
+    font-family: 'Fredoka', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Ubuntu', sans-serif;
 }
 /*#endregion*/
 
@@ -84,8 +87,16 @@ img{
     font-size: 12px;
 }
 
-.alignz{
-    gap: 115px;
+.price-cl{
+    color: var(--zl-off);
+}
+
+.fit{
+    font-weight: bold;
+}
+
+.price-cl, .brand, del{
+    font-size: 13px;
 }
 /*#endregion*/
 
@@ -148,6 +159,30 @@ main{
     margin-top: 2rem;
 }
 
+.card4{
+    position: relative;
+    background-image: url(../img/4.webp);
+    background-size: cover;
+    height: 480px;
+    margin-top: 2rem;
+}
+
+.card5{
+    position: relative;
+    background-image: url(../img/5.webp);
+    background-size: cover;
+    height: 480px;
+    margin-top: 2rem;
+}
+
+.card6{
+    position: relative;
+    background-image: url(../img/6.webp);
+    background-size: cover;
+    height: 480px;
+    margin-top: 2rem;
+}
+
 .heart{
     width: 10px;
     height: 10px;
@@ -178,6 +213,18 @@ main{
     background-image: url(../img/3b.webp);
 }
 
+.fourth:hover{
+    background-image: url(../img/4b.webp);
+}
+
+.fifth:hover{
+    background-image: url(../img/5b.webp);
+}
+
+.sixth:hover{
+    background-image: url(../img/6b.webp);
+}
+
 .heart:hover{
     color: red;
 }
@@ -206,6 +253,21 @@ main{
 }
 
 .off{
+    position: absolute;
+    bottom: 8.4%;
+    left: 1%;
+}
+
+.container_sustainability_mod{
+    height: 20px;
+    width: 75px;
+    background-color: var(--zl-sustenibles);
+    position: absolute;
+    bottom: 8%;
+    left: 0%;
+}
+
+.sustainability_mod{
     position: absolute;
     bottom: 8.4%;
     left: 1%;
