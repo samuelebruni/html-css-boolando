@@ -32,6 +32,11 @@ body{
     display: flex;
 }
 
+.column{
+    flex-direction: column;
+
+}
+
 .col-menu{
     width: calc(100% / 3);
     height: 50px;
@@ -58,7 +63,30 @@ img{
     justify-content: space-around;
 }
 
+.py-left{
+    padding-left: 0.6rem;
+}
 
+.py-left2{
+    padding-left: 5.5rem;
+}
+
+.py-left3{
+    padding-left: 0.4rem;
+}
+
+.py-right{
+    padding-right: 6.7rem;
+}
+
+.text-style{
+    color: var(--zl-light);
+    font-size: 12px;
+}
+
+.alignz{
+    gap: 115px;
+}
 /*#endregion*/
 
 /*#region Debug*/
@@ -93,7 +121,6 @@ main{
 }
 
 .card1{
-    width: 32%;
     position: relative;
     background-image: url(../img/1.webp);
     background-size: cover;
@@ -101,8 +128,11 @@ main{
     margin-top: 2rem;
 }
 
-.card2{
+.container_card{
     width: 32%;
+}
+
+.card2{
     position: relative;
     background-image: url(../img/2.webp);
     background-size: cover;
@@ -111,7 +141,6 @@ main{
 }
 
 .card3{
-    width: 32%;
     position: relative;
     background-image: url(../img/3.webp);
     background-size: cover;
@@ -151,5 +180,38 @@ main{
 
 .heart:hover{
     color: red;
+}
+
+.container_off{
+    height: 20px;
+    width: 35px;
+    background-color: var(--zl-off);
+    position: absolute;
+    bottom: 8%;
+}
+
+.container_sustainability{
+    height: 20px;
+    width: 75px;
+    background-color: var(--zl-sustenibles);
+    position: absolute;
+    bottom: 8%;
+    left: 12%;
+}
+
+.sustainability{
+    position: absolute;
+    bottom: 8.4%;
+    left: 14%;
+}
+
+.off{
+    position: absolute;
+    bottom: 8.4%;
+    left: 1%;
+}
+
+.column_text{
+    width: 32%;
 }
 /*#endregion*/
